@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**--------------Chizewer CSS starts below------------------**/
+/**--The below information is the proprietary stylesheet of Jeremy Chizewer. Any unauthorized use of the following material is punishable by law. Violaters will be prosecuted--**/
+
+header {
+    background-color: darkgray;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    padding: 0px;
+    }
+
+.box {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    }
+
+/*
+article {
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+    width: 80%;
+    border-color: lightgray;
+    }
+*/
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+/*
+section.box {
+    background-color: mediumpurple;
+    width: 56%;
+    display: inline-block;
+    height: 300px;
+    padding: 40px 0% 20px 0%;
+    margin-right: 2%;
+    }
+*/
+
+/*
+aside {
+    background-color: lightblue;
+    width: 41.5%;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    padding: 40px 0% 20px 0%;
+    }
+*/
+
+/*
+footer {
+    width: 80%;
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 4% 0%;
+    margin-top: 2%;
+    }
+*/
+
+
+
+a {
+    margin: 0px;
+    width: 18%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 2% 0px;
+    transition: 0.3s;
+    
+}
+a:default {
+
+}
+
+a:active {
+    
+}
+
+a:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+a:visited {
+
+}
+
+#imageRot {
+    width: 100%;
+    }

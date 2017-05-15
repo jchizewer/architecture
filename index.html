@@ -1,8 +1,187 @@
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	test
-</body>
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Chizewer Architecture</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets_chizewer/styles_chizewer/realstyle.css"/>
+        <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+        <style type="text/css">
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+
+         * {
+                box-sizing: border-box;
+            }
+
+            .slider {
+                width: 90%;
+                margin: 100px auto;
+            }
+
+            .slick-slide {
+                margin: 0px 20px;
+            }
+
+            .slick-slide img {
+                width: 100%;
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <header class='box'>
+            <a href="">
+                <h2>
+                    home
+                </h2>
+            </a>
+            <a href="designs.html">
+                <h2>
+                    designs
+                </h2>
+            </a>
+            <a href="">
+                <h2>
+                    inspiration
+                </h2>
+            </a>
+            <a href="">
+                <h2>
+                    admiration
+                </h2>
+            </a>
+            <a href="" class="borderhelptwo">
+                <h2>
+                    <div>
+                        about
+                    </div>
+                </h2>
+            </a>
+        </header>
+        <section class="center slider">
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda1.jpg">
+            </div>
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda2.jpg">
+            </div>
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda3.jpg">
+            </div>
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda4.jpg">
+            </div>
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda5.jpg">
+            </div>
+            <div>
+                <img src="assets_chizewer/images_chizewer/gooda6.jpg">
+            </div>
+        <div>
+            <img src="assets_chizewer/images_chizewer/gooda7.jpg">
+        </div>
+<!--
+        <div>
+            <img src="http://placehold.it/350x300?text=8">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=9">
+        </div>
+-->
+        </section>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 7,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 7,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                variableWidth: true
+            });
+            $(".variable").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 7,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                variableWidth: true
+            });
+            });
+//            $('.one-time').slick({
+//                dots: true,
+//                infinite: true,
+//                speed: 300,
+//                slidesToShow: 1,
+//                adaptiveHeight: true
+//            });
+            $(".autoplay").slick({
+                slidesToShow: 1,
+                slidesToScroll: 7,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                variableWidth: true
+            });
+//            $('.slider-for').slick({
+//                slidesToShow: 1,
+//                slidesToScroll: 1,
+//                arrows: false,
+//                fade: true,
+//                asNavFor: '.slider-nav',
+//                variableWidth: true,
+//                autoplay: true,
+//                autoplaySpeed: 2000
+//            });
+//            $('.slider-nav').slick({
+//                slidesToShow: 1,
+//                slidesToScroll: 7,
+//                asNavFor: '.slider-for',
+//                dots: true,
+//                centerMode: true,
+//                focusOnSelect: true,
+//                variableWidth: true,
+//                autoplay: true,
+//                autoplaySpeed: 2000
+//            });
+            $('.single-item').slick();
+
+        </script>
+        <div class="text">
+            Above are photos of interesting architecture from around the globe!
+        </div>
+<!--
+        <div id='wrapper'>
+            <section class='box'>&lt;section&gt;
+                <article class="box">&lt;article&gt;
+                </article>
+            </section>
+            <aside class='box'>&lt;aside&gt;
+            </aside>
+        </div>
+        <footer class='box'>&lt;footer&gt;
+        </footer>
+-->
+    </body>
 </html>

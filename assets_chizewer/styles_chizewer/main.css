@@ -1,0 +1,101 @@
+/**--------------Chizewer CSS starts below------------------**/
+/**--The below information is the proprietary stylesheet of Jeremy Chizewer. Any unauthorized use of the following material is punishable by law. Violaters will be prosecuted--**/
+
+/*
+header {
+    background-color: lightgray;
+    padding: 40px 0%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    }
+
+.box {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    }
+
+article {
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+    width: 80%;
+    border: solid 10px;
+    border-color: lightgray;
+    }
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+section {
+    background-color: mediumpurple;
+    width: 56%;
+    display: inline-block;
+    height: 300px;
+    padding: 40px 0% 20px 0%;
+    margin-right: 2%;
+    }
+
+aside {
+    background-color: lightblue;
+    width: 41.5%;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    padding: 40px 0% 20px 0%;
+    }
+
+footer {
+    width: 80%;
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 4% 0%;
+    margin-top: 2%;
+    }*/
+
+
+article {
+    width: 47%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: bottom;
+/*    margin-right: 2%;*/
+    margin-left: 2%;
+    float: right; 
+    min-width: 300px;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -8px;
+/*    margin-left: 2%;*/
+    float: left; 
+    min-width: 300px;
+}
+
+.image1 {
+    padding: 5%;
+    font-family: monospace;
+    width: 90%; 
+    overflow: hidden;
+    background-color: #DDDDDD;
+}
+
+.image1 {
+    padding: 5%;
+    font-family: monospace;
+    width: 90%; 
+    overflow: hidden;
+    background-color: #DDDDDD;
+}
+
+@media all and (max-width: 800px) {
+    article, img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+}
