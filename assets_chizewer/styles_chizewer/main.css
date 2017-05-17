@@ -113,7 +113,7 @@ footer {
     font-family: monospace;
     width: 90%; 
     overflow: hidden;
-    background-color: darkgray;
+    background-color: #DDDDDD;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -124,4 +124,35 @@ footer {
 
 @media all and (max-width: 800px) {
     .image2>article, .image2>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+}
+
+footer {
+    margin-bottom: -10px;
+    padding: 2%
+}
+
+.subheader {
+    padding: 4%;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+footer>a>img {
+    width: 62px;
+    margin-bottom: -3px;
+}
+
+.links {
+    float: right;
+    padding: 0px;
+    transition: 0.3s;
+    vertical-align: top;
+    border-radius: 14px;
+    width: 62px;
+    margin: 0px;
+    margin-right: 2%;
 }

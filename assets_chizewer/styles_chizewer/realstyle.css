@@ -48,9 +48,11 @@ table {
 header {
     background-color: darkgray;
     margin: 0 auto;
-    margin-top: 10px;
     margin-bottom: 2%;
     padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     }
 
 .box {
@@ -141,4 +143,14 @@ a:visited {
 #image_slider {
     margin-top: 0px;
     width: 100%;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 1%;
+    margin-bottom: -10px;
+}
+
+.subheader {
+    padding: 4%;
 }
