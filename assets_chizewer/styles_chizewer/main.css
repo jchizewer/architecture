@@ -115,6 +115,7 @@ footer {
     overflow: hidden;
     background-color: darkgray;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 @media all and (max-width: 800px) {

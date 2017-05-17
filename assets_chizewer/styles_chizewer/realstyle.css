@@ -138,6 +138,7 @@ a:visited {
 
 }
 
-#imageRot {
+#image_slider {
+    margin-top: 0px;
     width: 100%;
-    }
+}
