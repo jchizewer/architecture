@@ -60,7 +60,7 @@ footer {
     }*/
 
 
-article {
+.image1>article {
     width: 47%;
     text-align: justify;
     display: inline-block;
@@ -71,12 +71,32 @@ article {
     min-width: 300px;
 }
 
-img {
+.image1>img {
     display: inline-block;
     vertical-align: top;
     margin-right: -8px;
 /*    margin-left: 2%;*/
     float: left; 
+    min-width: 300px;
+}
+
+.image2>article {
+    width: 47%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: bottom;
+/*    margin-right: 2%;*/
+    margin-right: 2%;
+    float: left; 
+    min-width: 300px;
+}
+
+.image2>img {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -8px;
+/*    margin-left: 2%;*/
+    float: right; 
     min-width: 300px;
 }
 
@@ -88,14 +108,19 @@ img {
     background-color: #DDDDDD;
 }
 
-.image1 {
+.image2 {
     padding: 5%;
     font-family: monospace;
     width: 90%; 
     overflow: hidden;
-    background-color: #DDDDDD;
+    background-color: darkgray;
+    margin-top: 2%;
 }
 
 @media all and (max-width: 800px) {
-    article, img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+    .image1>article, .image1>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+}
+
+@media all and (max-width: 800px) {
+    .image2>article, .image2>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
 }
