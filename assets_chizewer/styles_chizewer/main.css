@@ -118,11 +118,11 @@ footer {
     margin-bottom: 2%;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
     .image1>article, .image1>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
     .image2>article, .image2>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
 }
 
@@ -153,6 +153,13 @@ footer>a>img {
     vertical-align: top;
     border-radius: 14px;
     width: 62px;
+    height: 62px;
     margin: 0px;
     margin-right: 2%;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding-bottom: 2%;
 }

@@ -154,3 +154,30 @@ footer {
 .subheader {
     padding: 4%;
 }
+
+footer {
+    margin-bottom: -10px;
+    padding: 2%
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+footer>a>img {
+    width: 62px;
+    margin-bottom: -3px;
+}
+
+.links {
+    float: right;
+    padding: 0px;
+    transition: 0.3s;
+    vertical-align: top;
+    border-radius: 14px;
+    width: 62px;
+    margin: 0px;
+    margin-right: 2%;
+}
