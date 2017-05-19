@@ -98,6 +98,8 @@ footer {
 /*    margin-left: 2%;*/
     float: right; 
     min-width: 300px;
+    border: solid;
+    border-color: black;
 }
 
 .image1 {
@@ -105,7 +107,6 @@ footer {
     font-family: monospace;
     width: 90%; 
     overflow: hidden;
-    background-color: #DDDDDD;
 }
 
 .image2 {
@@ -128,7 +129,7 @@ footer {
 
 footer {
     margin-bottom: -10px;
-    padding: 2%
+    padding: 2%;
 }
 
 .subheader {
@@ -161,5 +162,133 @@ footer>a>img {
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-    padding-bottom: 2%;
+    margin-bottom: 5%;
 }
+
+#image_a {
+    color: white;
+    background-color: #643228;
+}
+
+#image_a>img, #image_d>img {
+    border: solid;
+    border-color: white;
+}
+
+#image_c {
+    background-color: #C0B8A2;
+    color: black;
+}
+
+#image_c>img {
+    border: solid;
+    border-color: black;
+}
+
+#image_d {
+    background-color: #4D4841;
+    color: white;
+}
+
+header>h4>p#show {
+/*    display: none;
+*/  width: 25px;
+    height: 5px;
+    background-color: darkgray;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+    margin-left: 5px;
+}
+header>h4>p {
+/*    display: none;
+*/  width: 25px;
+    height: 5px;
+    background-color: rgba(0,0,0,0);
+    margin-left: 5px;
+}
+
+h4:hover p#show {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0);
+}
+
+h4 {
+    margin-top: 5px;
+    width: 25px;
+}
+
+@media all and (min-width: 630px) {
+    h4 {display: none;}
+    header>h4>p {display: none;}
+    header>h4>p#show {display: none;}
+}
+
+@media all and (max-width: 630px) {
+    .links {float: none; margin-top: 2%;} 
+    header {visibility: hidden;} 
+    .subheader {padding: 0;}
+    p {visibility: visible;}
+    h4 {visibility: visible;}
+    #image_slider {display: none;}
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-left: 5px;
+    border: 0%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    font-family: Quicksand;
+    font-size: 100%;
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #dddddd;
+    transition: 0.5s;
+}
+
+/* Show the dropdown menu on hover */
+h4:hover .dropdown-content {
+    visibility: visible;
+    display: block;
+    transition: 10s;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #bbbbbb;
+    color: black;
+    transition: 0.75s;
+}
+
+#menubutton:hover {
+    position: relative;
+    -webkit-animation-name: menubutton;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s; 
+}
+
+.text {
+    padding-top: 50px;
+    height: 300px;
+}
+
+
+
+
+
