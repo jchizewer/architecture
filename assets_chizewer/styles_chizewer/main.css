@@ -159,11 +159,6 @@ footer>a>img {
     margin-right: 2%;
 }
 
-h3 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-bottom: 5%;
-}
 
 #image_a {
     color: white;
@@ -288,6 +283,11 @@ h4:hover .dropdown-content {
     height: 300px;
 }
 
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
 
 
 
