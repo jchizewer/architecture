@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,57 +61,11 @@ header {
     font-size: 20px;
     }
 
-/*
-article {
-    background-color: lightblue;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 40px 0px;
-    width: 80%;
-    border-color: lightgray;
-    }
-*/
-
 #wrapper {
     width: 80%;
     margin: 0 auto;
     vertical-align: middle;
 }
-
-/*
-section.box {
-    background-color: mediumpurple;
-    width: 56%;
-    display: inline-block;
-    height: 300px;
-    padding: 40px 0% 20px 0%;
-    margin-right: 2%;
-    }
-*/
-
-/*
-aside {
-    background-color: lightblue;
-    width: 41.5%;
-    display: inline-block;
-    height: 300px;
-    vertical-align: top;
-    padding: 40px 0% 20px 0%;
-    }
-*/
-
-/*
-footer {
-    width: 80%;
-    background-color: lightgray;
-    margin: 0 auto;
-    padding: 4% 0%;
-    margin-top: 2%;
-    }
-*/
-
-
 
 a {
     margin: 0px;
@@ -121,23 +75,12 @@ a {
     color: white;
     padding: 2% 0px;
     transition: 0.3s;
-    
-}
-a:default {
 
-}
-
-a:active {
-    
 }
 
 a:hover {
     background-color: lightgray;
     transition: 0.3s;
-}
-
-a:visited {
-
 }
 
 #image_slider {
@@ -149,15 +92,11 @@ footer {
     background-color: darkgray;
     padding: 1%;
     margin-bottom: -10px;
+	padding: 2%
 }
 
 .subheader {
     padding: 4%;
-}
-
-footer {
-    margin-bottom: -10px;
-    padding: 2%
 }
 
 h1 {
@@ -180,4 +119,254 @@ footer>a>img {
     width: 62px;
     margin: 0px;
     margin-right: 2%;
+}
+
+article {
+	width: 47%;
+	text-align: justify;
+	display: inline-block;
+	vertical-align: bottom;
+	min-width: 300px;
+}
+
+
+.image1>article {
+	margin-left: 2%;
+    float: right;
+}
+
+.image1>img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -8px;
+    float: left;
+    min-width: 300px;
+}
+
+.image2>article {
+    margin-right: 2%;
+    float: left;
+}
+
+.image2>img {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -8px;
+    float: right;
+    min-width: 300px;
+    border: solid;
+    border-color: black;
+}
+
+.image1 {
+    padding: 5%;
+    font-family: monospace;
+    width: 90%;
+    overflow: hidden;
+}
+
+.image2 {
+    padding: 5%;
+    font-family: monospace;
+    width: 90%;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media all and (max-width: 900px) {
+    .image1>article, .image1>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+}
+
+@media all and (max-width: 900px) {
+    .image2>article, .image2>img {float: none; margin: 2% 5% 0% 5%; width: 90%}
+}
+
+footer {
+    margin-bottom: -10px;
+    padding: 2%;
+}
+
+.subheader {
+    padding: 4%;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+footer>a>img {
+    width: 62px;
+    margin-bottom: -3px;
+}
+
+.links {
+    float: right;
+    padding: 0px;
+    transition: 0.3s;
+    vertical-align: top;
+    border-radius: 14px;
+    width: 62px;
+    height: 62px;
+    margin: 0px;
+    margin-right: 2%;
+}
+
+
+#image_a {
+    color: white;
+    background-color: #643228;
+}
+
+#image_a>img, #image_d>img {
+    border: solid;
+    border-color: white;
+}
+#image_b {
+	background-color: #DDDDDD;
+}
+
+#image_c {
+    background-color: #C0B8A2;
+    color: black;
+}
+
+#image_c>img {
+    border: solid;
+    border-color: black;
+}
+
+#image_d {
+    background-color: #4D4841;
+    color: white;
+}
+
+header>h4>p#show {
+/*    display: none;
+*/  width: 25px;
+    height: 5px;
+    background-color: darkgray;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    margin-left: 5px;
+}
+header>h4>p {
+/*    display: none;
+*/  width: 25px;
+    height: 5px;
+    background-color: rgba(0,0,0,0);
+    margin-left: 5px;
+}
+
+h4:hover p#show {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0);
+}
+
+h4 {
+    margin-top: 5px;
+    width: 25px;
+}
+
+@media all and (min-width: 630px) {
+    h4 {display: none;}
+    header>h4>p {display: none;}
+    header>h4>p#show {display: none;}
+	.small_slider {display: none;}
+	.text {	margin-top: 2%;}
+}
+
+@media all and (max-width: 630px) {
+    .links {float: none; margin-top: 2%;}
+    header {visibility: hidden;}
+    .subheader {padding: 0;}
+    p {visibility: visible;}
+    h4 {visibility: visible;}
+    #image_slider {display: none;}
+	.small_slider {display: block;}
+	.text {	margin-top: 8%;}
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-left: 5px;
+    border: 0%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    font-family: Quicksand;
+    font-size: 100%;
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #dddddd;
+    transition: 0.5s;
+}
+
+/* Show the dropdown menu on hover */
+h4:hover .dropdown-content {
+    visibility: visible;
+    display: block;
+    transition: 10s;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #bbbbbb;
+    color: black;
+    transition: 0.75s;
+}
+
+#menubutton:hover {
+    position: relative;
+    -webkit-animation-name: menubutton;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+}
+
+.text {
+	margin-left: 4%;
+	font-family: monospace;
+	width: 90%;
+	margin-bottom: 2%;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.descriptions {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-bottom: auto;
+	margin-right: 1%;
+	margin-top: -170px;
+	padding-left: 1%;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.border>img {
+	border: solid;
+	border-color: white;
+	border-width: 20px 0px 0px 0px;
+	margin-bottom: 70px;
 }
